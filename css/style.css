@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;   
+}
+
+header{
+    position: absolute;
+    top: 0%;
+    left: 0 ;
+    right: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.flex-wrapper{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    color: #f1cbd3;
+    letter-spacing: 0.06em;
+}
+
+.slogan{
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin-top: 10px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style: none; /* отключает  маркеры, точки у списка*/
+}
+
+nav li{
+    margin-left: 35px;
+}
+
+nav a{
+    font: 15px Arial;
+    color: #cdcdcd;
+    display: block;
+}
+
+nav a:active{
+    border-bottom: #f1cdb3 solid 3px;
+    padding-bottom: 4px;
+}
+
+.active{
+    border-bottom: #f1cdb3 solid 3px;
+    padding-bottom: 4px;
+}
+
+.hero{
+    background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+}
+
+.hed1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 180px;
+}
+
+.head{
+    width: 38%;
+    padding-bottom: 160px;   
+}
+
+
+.dog1 img{
+    max-width: 698px;
+}
+
+span{
+    display: block;
+}
+
+.head h1{
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 63px;
+}
+
+.head p{
+    padding-top: 41px;
+    padding-bottom: 56px;
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #cdcdcd;
+}
+
+.make{
+    padding: 15px 45px;
+    border: solid 1px #f1cdb3 ;
+    border-radius: 100px;
+    font-family: Georgia;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #292929;
+    background-color: #f1cdb3;
+}
+
+ .make:hover{
+    background-color: #FDDCC4;
+}
+
+.startscreen{
+    max-width: 698px;
+}
+
+.one{
+    display: flex;
+    margin-top: 73px ;
+    margin-bottom: 91px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right{
+    margin-top: 21 px;
+    margin-bottom: 23px;
+    width: 35%;
+    margin-left: 126px;
+}
+.right p{
+    padding-top: 25px;
+    color: #4c4c4c;
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;   
+}
+
+.right h2{
+    color: #545454;
+    font-family: Georgia;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.second{
+    background-color: #f6f6f6;
+}
+.two h2{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    color: #545454;   
+    font-family: Georgia;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.button1{
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 19px;
+    border: solid 2px #f1cdb3;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.button1:hover{
+    background-color: #FDDCC4;
+    border: #FDDCC4;
+}
+
+.frendli{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.friends{
+    display: flex;
+    justify-content: space-between;
+    max-width: 990px;
+    flex-grow: 3;  
+}
+
+.pet-card {
+    max-width: 270px;
+    text-align: center;
+    border-radius: 9px;
+    background: #FAFAFA;
+}
+
+.pet-card:hover{
+    background: #ffffff;
+}
+
+.pet-card p{
+    padding: 30px 0;
+    color: #545454;
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+}
+
+.learn-more{
+    display: inline-block;
+    padding: 15px 45px;
+    border: solid 2px #f1cdb3 ;
+    border-radius: 100px;
+    font-family: Georgia;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    margin-bottom: 30px;
+}
+
+.learn-more:hover{
+    background-color: #FDDCC4;
+    border: #FDDCC4;
+}
+
+.get{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 45px;
+    border-radius: 100px;
+    font-family: Georgia;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #292929;
+    background-color: #f1cdb3;
+}
+
+.button2:hover{
+    background-color: #FDDCC4;
+}
+
+.tree h2{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    color: #545454;   
+    font-family: Georgia;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.food{
+    max-width: 990px;
+    margin: auto;
+}
+
+.food1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: center ;
+    
+}
+
+.food2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: center ;
+    padding-top: 55px;
+    padding-bottom: 98px;
+}
+
+
+.pet-card2 {
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+    padding-top: 30px;
+}
+
+.pet-card2 img{
+    height: 60px;
+     
+}
+
+.pet-card2 p{
+    padding-top: 30px;
+    color: #545454;
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.four{
+    background-color: #f6f6f6;
+}
+
+.last{
+    display: flex;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dog img{
+    max-width: 505px;
+}
+.donat{
+    width: 380px;
+    margin-left: 30px;
+}
+
+.donat h2{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.donat h4{
+    padding: 20px 0;
+    color: #545454;
+    font-family: Georgia;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+.donat img{
+    max-width: 349px;
+}
+.donat p{
+    padding-top: 20px;
+    color: #b2b2b2;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+footer {
+    background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%),
+    linear-gradient(0deg, #211F20, #211F20);
+    padding-top: 40px;
+    align-items: flex-start;
+}
+
+footer h2{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0.06em;
+    padding-top: 16px;
+    margin-bottom: 33px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .container > div{
+    width: 300px;
+}
+
+footer p{
+    min-height: 46px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    margin-bottom: 14px;
+}
+
+footer a, p{
+    color: #f1cdb3;
+}
+
+footer .email{
+    background: url(../images/mail.svg) no-repeat left center;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    
+}
+
+footer .tel{
+    background: url(../images/phone.svg) no-repeat left center;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    
+}
+
+footer .map1{
+    background: url(../images/pin.svg) no-repeat left center;
+    padding-left: 42px;
+     
+}
+
+footer .map2{
+    background: url(../images/pin.svg) no-repeat left center ;
+    padding-left: 42px;
+}
+
+@media (max-width:1280px){
+    .container{
+        max-width: 95%;
+    }
+}
+
+@media (max-width:958px) {
+    .startscreen {
+        display: none;
+    }
+    .head {
+        width: 70%;
+        padding-bottom: 40px;
+        padding-top: 0px;
+        text-align: center;
+    }
+    .hed1 {
+        padding-top: 70px;
+        justify-content: center;
+    }
+    .head h1{
+        text-align: center;
+}
+
+@media (max-width:650px) {
+    nav{
+        display: none;
+    }
+    .mobile-menu{
+      display: block;
+      margin-right: 30px;
+    }
+}
+
+@media (max-width:700px) {
+       .right{
+           width: 80%;
+           margin: auto;
+       }
+}
+
+@media (max-width:940px) {
+    .friends{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .pet-card:last-child{
+        display: none;
+    }
+}
+
+@media (max-width:677px) {
+    .pet-card:first-child{
+        display: none;
+    }
+}
+
+@media (max-width:384px) {
+.pet-card img{
+    width: 200px;
+}
+.pet-card {
+    width: 200px;
+}
+.button1{
+    width: 46px;
+    height: 46px;
+    padding: 20px 16px;
+}
+.donat img{
+    width: 270px;
+}
+}
+
+@media (max-width:512px) {
+    .dog img {
+    width: 80%; 
+}
+}
+
+@media (max-width:670px) {
+    .pet-card2 {
+        margin-right: 20px;
+    }
+    .food1{
+        justify-content: space-between;
+        vertical-align: auto;
+    }
+    .food2{justify-content: space-between;}
+}
+
+@media (max-width:950px) {
+    footer .container{
+        justify-content: space-around;
+    }
+}
+    
